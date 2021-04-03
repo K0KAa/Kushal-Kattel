@@ -1,4 +1,5 @@
 using System;
+using EnumsAndProperties;
 
 public class MethodTeacher
 {
@@ -6,6 +7,7 @@ public class MethodTeacher
     //Sum using For loop
     public double Sum(double firstNum, double secondNum)
     {
+        DayWeek x;
         return firstNum + secondNum;
     }
 
