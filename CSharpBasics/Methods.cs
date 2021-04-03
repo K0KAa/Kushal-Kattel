@@ -62,7 +62,7 @@ public class MethodTeacher
 
 public class MethodTester
 {
-    static void Main()
+    static void Main4()
     {
         MethodTeacher methodTeacher = new MethodTeacher();
         
