@@ -6,7 +6,7 @@ namespace AllAboutClasses
         public string Name { get; set; }
         public int Population { get; set; }
         public readonly double AREA = 343243.23423;         
-        public static readonly bool IsOnEarth;
+        public static bool IsOnEarth;
         //default constructor
         public Country()
         {
