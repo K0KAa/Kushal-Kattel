@@ -19,17 +19,21 @@ namespace NameCollection
             {
                 Console.WriteLine($"{age}");
             }
+
+
             List<Country> countries = new List<Country>();
+
             Country country = new Country();
             countries.Add(country);
         }
 
         internal void LearnDictionary()
         {
+            
             Dictionary<string, string> countryCapitals = new Dictionary<string, string>()
             {
                 ["Nepal"] = "Kathmandu",
-                ["India"] = "Delhi",
+                ["India"] = "Kathmandu",
                 ["China"] = "Beghing"
 
             };

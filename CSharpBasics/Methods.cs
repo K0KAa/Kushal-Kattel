@@ -7,7 +7,7 @@ public class MethodTeacher
     //Sum using For loop
     public double Sum(double firstNum, double secondNum)
     {
-        DayWeek x;
+       // DayWeek x;
         return firstNum + secondNum;
     }
 
@@ -52,6 +52,7 @@ public class MethodTeacher
     internal void PrintCustomerDetails( string name, byte age, string address)
     {
         Console.Write($"Name: {name}[{age}], Address: {address}");
+       
     }
 
     public void Sum<T>(T firstNum, T secondNum)
@@ -65,7 +66,6 @@ public class MethodTester
     static void Main4()
     {
         MethodTeacher methodTeacher = new MethodTeacher();
-        
         methodTeacher.SumOfEven(1,2,3,4,5,6,7);
         int[] numbers = new int[] {1,45,87,9,3,0,45,87};
         (int min, int max) result =methodTeacher.FindMinMax(numbers);

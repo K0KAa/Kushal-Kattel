@@ -1,0 +1,30 @@
+@model List<Person>
+
+<table class="table caption-top">
+    <caption>List of users</caption>
+    <thead>
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Salary</th>
+
+        </tr>
+
+    </thead>
+    <tbody>
+        @for (var i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <th scope="row">@Model[i].Id</th>
+                <td>
+                    <a href ="/Employee/Detail?id=@Model[i].Id"> @Model[i].FirstName</a>
+                </td>
+                <td>@Model[i].LastName</td>
+                <td>@Model[i].Gender</td>
+                <td>@Model[i].Salary</td>
+            </tr>
+        }
+    </tbody>
+</table>

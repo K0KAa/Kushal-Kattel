@@ -1,0 +1,52 @@
+﻿<html>
+
+    <head>
+        <title>
+            This is the title
+        </title>
+        <link rel="Stylesheet" href="../css/site.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" data-auto-a11y="true"></script>
+
+    </head>
+
+    <body>
+
+        <nav>
+            <div class='logo'>
+                <h4>Our Site</h4>
+            </div>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Search Here">
+                <a class="search-btn" href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </div>
+            <ul class="Nav-links">
+                <li>
+                    <a asp-controller= "Home" asp-action="index">Home</a>
+                </li>
+                <li>
+                    <a href="/About">About</a>
+                </li>
+                <li>
+                    <a asp-controller= "Home" asp-action="privacy">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+
+            </div>
+            
+
+        </nav>
+        @RenderBody()
+    <script src="../js/site.js"></script>
+    </body>
+
+</html>

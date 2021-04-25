@@ -1,0 +1,34 @@
+@model List<Person>
+
+<h1>hello</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Address</th>
+            <th scope="col">Gender</th>
+            <th scope="col">Salary</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr scope="row">
+                <td> @(i+1)</td>
+                <td>
+                    <a href="/employee/detail?firstName=@Model[i].FirstName">@Model[i].FirstName</a>
+                </td>
+                <td>@Model[i].SurName</td>
+                <td>@Model[i].Address</td>
+                <td>@Model[i].Gender</td>
+                <td>@Model[i].Salary</td>
+            </tr>
+        }
+
+    </tbody>
+</table>

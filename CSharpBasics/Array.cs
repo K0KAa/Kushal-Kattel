@@ -13,11 +13,11 @@ class Array
 
     void LearnMultiArray()
     {
-        int[,] agesMatrix = new int[10,15];
+        int[,] agesMatrix = new int[2,3];
         agesMatrix[0,0] = 453;
         int[, ,] agesMatrix3D = new int [4,4,4];
 
-        string[,] names = new string [,] { {"Kushal", "Kamal"}, {"Ram", "Shyam"}};
+        string[,] names = new string [,] { {"kushal","koka"}, {"kattel","koka"}};
 
     }
 

@@ -17,7 +17,7 @@
 
 //             //1.1.2 Floating numbers
 //             float e = 234.54f;
-//             double f = 2342342.34;
+//             double f = 2342342.3455554;
 //             decimal g =234234234.34534553m;
 
 //             //1.2 characters
@@ -29,12 +29,12 @@
 
 //             //2. Reference type 
 //             string j = "Kushal\"KOKAa";
-//             object k = 4234234.2342;
+//             object k =4234234.2342;
 //             Console.Write(j);
 //         }
-//         (float, int, string) GetNumber(int x , string y)
+//         (int,float,string) GetNumber(int x , string y)
 //         {
-//             return (45.6f, 454 , "");
+//             return (12,12.34f,"kushal");
 //         }
 
 //     }

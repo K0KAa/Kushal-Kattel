@@ -3,7 +3,7 @@ using NameCollection;
 
 public class MyMain
 {
-    static void Main()
+    static void Main26()
     {
         //Collections collections = new Collections();
         //collections.LearnLists();
